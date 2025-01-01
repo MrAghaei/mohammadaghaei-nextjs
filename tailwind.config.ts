@@ -4,12 +4,11 @@ export default {
   darkMode: "selector",
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./_components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./(components)/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
-     
       colors: {
         mainText: "#333A3F",
         darkModeBlack: "#121212",

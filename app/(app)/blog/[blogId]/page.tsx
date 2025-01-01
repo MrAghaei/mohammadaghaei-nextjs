@@ -1,4 +1,4 @@
-import { supabase } from "@/app/_lib/supabase";
+import { supabase } from "@/app/(app)/(lib)/supabase";
 import Link from "next/link";
 import { FaLongArrowAltLeft } from "react-icons/fa";
 

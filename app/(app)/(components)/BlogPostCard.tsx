@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { supabase } from "@/app/_lib/supabase";
+import { supabase } from "@/app/(app)/(lib)/supabase";
 
 async function BlogPostCard() {
   const { data: blogPosts, error } = await supabase
@@ -21,7 +21,7 @@ async function BlogPostCard() {
           <h3 className="text-2xl">{blogPost.title}</h3>
           <Link
             className="text-xl bg-blue-950 w-fit px-5 py-2 rounded-2xl text-white"
-            href={`/blog/${blogPost.id}`}
+            href={`/src/(app)/blog/${blogPost.id}`}
           >
             خواندن...
           </Link>
